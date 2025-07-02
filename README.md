@@ -1,10 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PitchBolt - AI-Powered Startup Pitch Generator
+
+PitchBolt is a full-stack Next.js 14 application that uses OpenAI's GPT-4 to generate comprehensive startup pitches. Enter your startup idea and instantly receive an elevator pitch, SWOT analysis, pitch deck outline, and video script.
+
+## Features
+
+- 🚀 Generate complete startup pitches with AI
+- 🎤 Get a concise elevator pitch
+- 📊 Receive a detailed SWOT analysis
+- 📑 Generate a structured pitch deck outline
+- 🎬 Create a video pitch script
+- 📄 Export results as PDF
+- 🖼️ Export results as PowerPoint
+- 📱 Responsive design for all devices
+
+## Tech Stack
+
+- **Frontend**: Next.js 14 (App Router), React, Tailwind CSS
+- **Backend**: Next.js API Routes
+- **AI**: OpenAI GPT-4 API
+- **Export**: html2pdf.js, pptxgenjs
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ and npm
+- OpenAI API key
+
+### Installation
+
+1. Clone the repository
 
 ```bash
+git clone https://github.com/yourusername/pitchbolt.git
+cd pitchbolt
 npm run dev
 # or
 yarn dev
